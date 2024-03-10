@@ -43,7 +43,7 @@ curl --location 'http://localhost:8080/mcda5550/hotels/getAllHotels' \
 Note: Above curls assume that the application is up loacally on port 8080. Please update the port number in URL as per scenario.
 
 ### Image of successfull postman execution of Post Command
-<img src="https://drive.google.com/file/d/1L7pyXPY982dbhHz_Pp9rDILRzQOi7mZH/view?usp=sharing" alt="Add Hotel" width="500"/>
+![Add New Hotel](screenshots/AddHotel.png)
 
 ### Image of successfull postman execution of Get Command
-<img src="https://drive.google.com/file/d/1L7pyXPY982dbhHz_Pp9rDILRzQOi7mZH/view?usp=sharing" alt="Get All Hotels" width="500"/>
+![Get all Hotels](screenshots/GetAllHotels.png)
