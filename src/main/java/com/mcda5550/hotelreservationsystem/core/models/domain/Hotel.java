@@ -11,6 +11,8 @@ import lombok.*;
 @Getter
 @Setter
 public class Hotel {
+    // This model save information about a hotel in the DB
+    // The Param defined for a Hotel are its Id(Primary Key), name, location, noOfRooms and  rating
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
