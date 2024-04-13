@@ -27,7 +27,7 @@ curl --location 'http://hotel-reservation-env.eba-ihpnu2st.us-east-1.elasticbean
 --header 'Accept: application/json'
 ```
 
-#### Create a new Booking 
+### Create a new Booking 
 
 ````bash
 curl --location 'http://hotel-reservation-env.eba-ihpnu2st.us-east-1.elasticbeanstalk.com/mcda5550/hotels/createBooking' \
