@@ -17,20 +17,6 @@ The Hotel Reservation System provides the following endpoints:
 ### Add a New Hotel
 The Spring Boot Application is currently deployed on AWS elastic beanstack and can be accessed via below apis:
 
-To add a new hotel to the system, use the following `curl` command:
-
-```bash
-curl --location 'http://localhost:5000/mcda5550/hotels/addHotel' \
---header 'Content-Type: application/json' \
---data '{
-    "name": "Oceanview Resort",
-    "location": "Sunny Beach",
-    "noOfRooms": 150,
-    "rating": 4.8,
-    "price": 299.99
-}
-'
-```
 ### Get List of all Hotels
 
 To get list of all hotels from the system, use the following `curl` command:
